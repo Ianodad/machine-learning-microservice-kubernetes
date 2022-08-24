@@ -1,5 +1,4 @@
-<include a CircleCI status badge, here>
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/bisi-dev/mlmapi/tree/main.svg?style=svg)]()
 ## Project Overview
 
 This is a  microservice architecture built with Kubernetes. The purpose of this microservice is to enable machine learning training and prediction.
