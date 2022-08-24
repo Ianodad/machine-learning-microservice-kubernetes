@@ -1,0 +1,430 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Aug 10 09:28:57 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PAPERSIZE = a4
+# environment
+VIRTUALENVWRAPPER_PROJECT_FILENAME = .project
+# environment
+DESKTOP_SESSION = gnome
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+NVM_INC = /home/adera/.nvm/versions/node/v16.13.2/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = gnome
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/adera/Documents/Excercises/UDACITY/project-ml-microservice-kubernetes
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/103
+# environment
+VTE_VERSION = 6003
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:69106
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-gnome:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = adera
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/gnome.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/gnome:/home/adera/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+AUTOJUMP_SOURCED = 1
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=80790cc4b0165f79d39d36db62f3466f
+# environment
+MANAGERPID = 2854
+# environment
+P9K_SSH = 0
+# environment
+LC_NAME = en_GB.UTF-8
+# environment
+VSCODE_CWD = /home/adera/Documents/Excercises/UDACITY/project-ml-microservice-kubernetes
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/103/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/adera/.meteor:/home/adera/.nvm/versions/node/v16.13.2/bin:/home/adera/.autojump/bin:/home/adera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/adera/Android/Sdk/emulator:/home/adera/Android/Sdk/tools:/home/adera/Android/Sdk/tools/bin:/home/adera/Android/Sdk/platform-tools:/home/linuxbrew/.linuxbrew/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SESSION_MANAGER = local/adera-Strix-15-GL503GE:@/tmp/.ICE-unix/3149,unix/adera-Strix-15-GL503GE:/tmp/.ICE-unix/3149
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/adera/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+SNAP = /snap/code/103
+# environment
+NVM_BIN = /home/adera/.nvm/versions/node/v16.13.2/bin
+# environment
+SNAP_VERSION = da76f933
+# environment
+VIRTUALENVWRAPPER_PYTHON = /usr/bin/python3
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 80b22c94530f4c44bb56d0df725fba4b
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/103/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+VIRTUALENVWRAPPER_HOOK_DIR = /home/adera/.virtualenvs
+# environment
+XDG_SESSION_DESKTOP = gnome
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+VIRTUALENVWRAPPER_VIRTUALENV = /home/adera/.local/bin/virtualenv
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/adera/Documents/Excercises/UDACITY/project-ml-microservice-kubernetes
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 3113
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# environment
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/adera
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/adera/.config/Code/CachedData/da76f93349a72022ca4670c1b84860304616aaa2
+# environment
+LOGNAME = adera
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = pnp4ypaOFFGLbbT72YSnWFpdru7pWu18dS2ylcaxviE-71DOGmvW
+# environment
+NVM_CD_FLAGS = -q
+# automatic
++F = $(notdir $+)
+# environment
+ZSH = /home/adera/.oh-my-zsh
+# environment
+SNAP_USER_COMMON = /home/adera/snap/code/common
+# environment
+WORKON_HOME = /home/adera/.virtualenvs
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = en_GB.UTF-8
+# environment
+SNAP_REAL_HOME = /home/adera
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/adera/snap/code/103
+# environment
+SHLVL = 1
+# environment
+ANDROID_HOME = /home/adera/Android/Sdk
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = adera
+# environment
+SNAP_REVISION = 103
+# environment
+LC_MONETARY = en_GB.UTF-8
+# makefile
+.DEFAULT_GOAL := setup
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = en_GB.UTF-8
+# environment
+BREW_HOME = /home/linuxbrew/.linuxbrew/bin
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-a4e48b71-1.70.0-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/adera/.nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = en_GB.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/gnome.default.path
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = pnp4ypaOFFGLbbT72YSnWFpdru7pWu18dS2ylcaxviE-71DOGmvW
+# environment
+VIRTUALENVWRAPPER_WORKON_CD = 1
+# environment
+LC_NUMERIC = en_GB.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+VIRTUALENVWRAPPER_SCRIPT = /home/adera/.local/bin/virtualenvwrapper.sh
+# environment
+LC_MEASUREMENT = en_GB.UTF-8
+# environment
+SNAP_NAME = code
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# environment
+P9K_TTY = old
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/29c6cc6c_1d4e_4d82_9acc_67a3e4fef0f2
+# automatic
+^F = $(notdir $^)
+# environment
+ 
+GNOME_TERMINAL_SERVICE = :1.279
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = en_GB.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+AUTOJUMP_ERROR_PATH = /home/adera/.local/share/autojump/errors.log
+# environment
+LC_ADDRESS = en_GB.UTF-8
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+_P9K_TTY = /dev/pts/1
+# environment
+VSCODE_PID = 31332
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=80790cc4b0165f79d39d36db62f3466f
+# variable set hash-table stats:
+# Load=147/1024=14%, Rehash=0, Collisions=22/175=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66310, inode 3393297): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+setup:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 9):
+	# Create python virtualenv & source it
+	# source ~/.devops/bin/activate
+	python3 -m venv ~/.devops
+
+all: install lint test
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-08 18:31:16.629874
+#  File has been updated.
+#  Successfully updated.
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	# Additional, optional, tests could go here
+	#python -m pytest -vv --cov=myrepolib tests/*.py
+	#python -m pytest --nbval notebook.ipynb
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
+	# This is linter for Dockerfiles
+	hadolint Dockerfile
+	# This is a linter for Python source code linter: https://www.pylint.org/
+	# This should be run from inside a virtualenv
+	pylint --disable=R,C,W1203,W1202 app.py
+
+install:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := install
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 14):
+	# This should be run from inside a virtualenv
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/23=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 269 B / avg = 9 B
+# current buf: size = 8162 B / used = 269 B / count = 27 / avg = 9 B
+
+# strcache performance: lookups = 41 / hit rate = 34%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Wed Aug 10 09:28:57 2022
+
+ 
