@@ -1,4 +1,5 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/bisi-dev/mlmapi/tree/main.svg?style=svg)]()
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Ianodad/machine-learning-microservice-kubernetes/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Ianodad/machine-learning-microservice-kubernetes/tree/main)
+
 ## Project Overview
 
 This is a  microservice architecture built with Kubernetes. The purpose of this microservice is to enable machine learning training and prediction.
